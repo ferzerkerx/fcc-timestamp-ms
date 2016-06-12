@@ -1,0 +1,26 @@
+{
+  "name": "fcc-timestamp-ms",
+  "version": "0.0.1",
+  "description": "The elegant and lightweight boilerplate for full stack JavaScript.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferzerkerx/fcc-timestamp-ms"
+  },
+  "homepage": "https://github.com/ferzerkerx/fcc-timestamp-ms",
+  "bugs": "https://github.com/ferzerkerx/fcc-timestamp-ms/issues",
+  "keywords": [
+    "Express",
+    "Node",
+    "javascript"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Fernando Montes",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.12.4"
+  }
+}
