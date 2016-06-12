@@ -6,7 +6,7 @@ var routes = require('./app/routes/index.js');
 var app = express();
 require('dotenv').load();
 
-app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
+app.use('/service', express.static(process.cwd() + '/app/service'));
 app.use('/public', express.static(process.cwd() + '/public'));
 
 routes(app);
