@@ -1,6 +1,6 @@
 'use strict';
 
-var TimeStampService = require(path + '../service/timestampService.js');
+var TimeStampService = require('../service/timestampService.js');
 
 module.exports = function (app) {
 
