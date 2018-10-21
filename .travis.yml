@@ -19,7 +19,6 @@ install:
 
 script:
   - "sonar-scanner"
-  - "snyk test"
 
 after_success:
   - snyk monitor
